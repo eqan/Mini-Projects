@@ -265,7 +265,7 @@ def clear():
     else: 
         _ = system('clear')
 
-# Convert the string integers back into normal string and returns the results
+# Convert the string integers back into normal integers and returns the results
 def convert_to_integers(raw_data):
 	for i, sub_list in enumerate(raw_data):
 		for j, s in enumerate(sub_list):
@@ -315,6 +315,7 @@ def determine_opponent_index(current_user):
 	if(current_user == 0):
 		return 1
 	return 0
+	
 # Return random rolled dices for a player
 def roll_dices(player):
 	roll_dices_result = []
