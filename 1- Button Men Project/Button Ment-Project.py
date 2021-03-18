@@ -93,8 +93,7 @@ def first_turn(users):
 	print("\nChecking X For Player 2....\n")
 	users[1] = check_for_unknown(users[1])
 	roll_dices_result = turn(users)
-	original_result = roll_dices_result[:]
-	return ([decide_user_turn(roll_dices_result), original_result])
+	return ([decide_user_turn(roll_dices_result), roll_dices_result])
 
 # Checks if a player is eligible to get a turn
 def check_if_player_eligible(current_user, roll_dices_result):
@@ -137,7 +136,7 @@ def capture_dice(current_user, users, roll_dices_result):
 				power_attack(current_user, users, roll_dices_result)
 			else:
 				invalid_input = False
-				print('Option out of bounds, try again!\n')
+				print('[-] Option out of bounds, try again!\n')
 
 
 #	Skill Attack: Player will pick and choose multiple dices to target opponents 1 dice[But the combined have to be equal to the opponents dice
@@ -160,13 +159,13 @@ def skill_attack(current_user, users, roll_dices_result):
 				if(i < size):
 					user_selected_index = int(input(f'Input Your Dice Index To Attack: '))
 			else:
-				print('This dice index, is unusable\n')
+				print('[-] This dice index, is unusable\n')
 				user_selected_index = int(input(f'Input Your Dice Index To Attack: '))
 	else:
-		print('Invalid Input, Please Try Again!\n')
+		print('[-] Invalid Input, Please Try Again!\n')
 	total = add_list_elements(user_selected_dices)
 	if(total != roll_dices_result[opponent_index][opponent_targeted_index]):
-		print('The Combination didnt match any of the opponents dices, Please try again!\n')
+		print('[-] The Combination didnt match any of the opponents dices, Please try again!\n')
 		skill_attack(current_user, users, roll_dices_result)
 	else:
 		scores[current_user] += roll_dices_result[opponent_index][opponent_targeted_index]
@@ -186,13 +185,13 @@ def execute_power_attack(current_user, opponent, users, roll_dices_result):
 				roll_dices_result[opponent][opponent_targeted_index] = -1
 				return True
 			else:
-				print(f'Current Dice[{results[0]}] is not bigger than or equal to Opponent Dice[{results[1]}]')
+				print(f'[-] Current Dice[{results[0]}] is not bigger than or equal to Opponent Dice[{results[1]}]')
 				return False
 		else:
-			print('This dice index, is unusable')
+			print('[-] This dice index, is unusable')
 			return False
 	else:
-		print('One of the dice index was out of bounds, Please try again')
+		print('[-] One of the dice index was out of bounds, Please try again')
 		return False
 
 #	Power Attack: Player will pick one dice[That dice must be bigger or equal to opponents dice
@@ -240,9 +239,11 @@ def declare_game_winner(users, roll_dices_result):
 	finalize_scores(roll_dices_result)
 	show_scores(users)
 	if(scores[0] > scores[1]):
-		print(f'Player1[{users[0][0]}] has won the game!\n')
+		store_high_scores(users[0][0], scores[0])
+		print(f'[+] Player1[{users[0][0]}] has won the game!\n')
 	else:
-		print(f'Player2[{users[1][0]}] has won the game!\n')
+		store_high_scores(users[1][0], scores[1])
+		print(f'[+] Player2[{users[1][0]}] has won the game!\n')
 
 '''
 	*** Ending Functions End ***
@@ -340,7 +341,12 @@ def show_profiles():
 	with open('profiles.txt') as fp:
 		for i, current_line in enumerate(fp.readlines()):
 				print(f'{i} : {current_line.strip()}')
-		print('\n')	
+		print('\n')	 
+
+# Stores the highscores in a file
+def store_high_scores(username, highscore):
+	with open('highscores.txt', 'a') as fp:
+		fp.write(username + " " + str(highscore) + '\n')
 
 '''
 	*** Utility Functions End ***
