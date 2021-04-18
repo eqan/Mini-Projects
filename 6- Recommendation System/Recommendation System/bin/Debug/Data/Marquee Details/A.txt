@@ -1,0 +1,3 @@
+Marquee A
+Destination: Street 1
+Decorations: Diyas, Candles, Colorful lamps, Colourful drapes.

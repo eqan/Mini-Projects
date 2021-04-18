@@ -1,0 +1,14 @@
+E:\C++\Recommendation System\Recommendation System\bin\Debug\Recommendation System.exe.config
+E:\C++\Recommendation System\Recommendation System\bin\Debug\Recommendation System.exe
+E:\C++\Recommendation System\Recommendation System\bin\Debug\Recommendation System.pdb
+E:\C++\Recommendation System\Recommendation System\obj\Debug\Recommendation System.csprojAssemblyReference.cache
+E:\C++\Recommendation System\Recommendation System\obj\Debug\Recommendation_System.Properties.Resources.resources
+E:\C++\Recommendation System\Recommendation System\obj\Debug\Recommendation System.csproj.GenerateResource.cache
+E:\C++\Recommendation System\Recommendation System\obj\Debug\Recommendation System.csproj.CoreCompileInputs.cache
+E:\C++\Recommendation System\Recommendation System\obj\Debug\Recommendation System.exe
+E:\C++\Recommendation System\Recommendation System\obj\Debug\Recommendation System.pdb
+E:\C++\Recommendation System\Recommendation System\obj\Debug\Recommendation_System.Location.resources
+E:\C++\Recommendation System\Recommendation System\obj\Debug\Recommendation_System.SearchMarquees.resources
+E:\C++\Recommendation System\Recommendation System\obj\Debug\Recommendation_System.CompleteMarqueeDetails.resources
+E:\C++\Recommendation System\Recommendation System\obj\Debug\Recommendation_System.MenuSystem.resources
+E:\C++\Recommendation System\Recommendation System\obj\Debug\Recommendation_System.PriceRangeFilters.resources

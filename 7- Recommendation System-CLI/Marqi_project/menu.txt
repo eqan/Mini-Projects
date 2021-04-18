@@ -1,0 +1,9 @@
+burger 100
+shawarma 150
+pizza 1000
+Roti 10
+Salan 150
+baryani 200
+salad 140
+kheer 250
+cold-drink 50

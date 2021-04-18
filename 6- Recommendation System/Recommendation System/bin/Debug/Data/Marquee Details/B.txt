@@ -1,0 +1,3 @@
+Marquee B
+Destination: Street 2
+Decorations: Floral stage decoration, Colorful lamps.

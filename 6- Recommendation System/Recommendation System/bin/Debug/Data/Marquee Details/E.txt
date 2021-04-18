@@ -1,0 +1,3 @@
+Marquee E
+Destination: Street 5
+Decorations: Ethnic stage decoration, Colorful lamps.

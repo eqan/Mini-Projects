@@ -1,0 +1,3 @@
+Marquee C
+Destination: Street 3
+Decorations: Colourful drapes, Rangoli, Flowers.
