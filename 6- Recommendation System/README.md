@@ -3,11 +3,11 @@
 
 A Marquee System That Handles The Fastest Route Of A MArquee, Its Description, Menu System and A Search Engine To Facilitate If A Marquee Exisits Or Not.
 
-![Marquee Main Page](/ScreenShots/1.png)
+![Marquee Main Page](/6-%20Recommendation%20System/ScreenShots/1.png)
 
 | Menu System         | Search Engine         | Fastest Route   |
 |:-------------:|:-------------:|:-------------:|
-|![](/ScreenShots/2.png)|![](/ScreenShots/3.png)|![](/ScreenShots/4.png)|
+|![](/6-%20Recommendation%20System/ScreenShots/2.png)|![](/6-%20Recommendation%20System/ScreenShots/3.png)|![](/6-%20Recommendation%20System/ScreenShots/4.png)|
 
 
 > ## Features
