@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C++\\Calculator Project C#\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {}
+    "E:\\Mini Projects\\2- Calculator Project C#\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {}
   },
   "projects": {
-    "E:\\C++\\Calculator Project C#\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {
+    "E:\\Mini Projects\\2- Calculator Project C#\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C++\\Calculator Project C#\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+        "projectUniqueName": "E:\\Mini Projects\\2- Calculator Project C#\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
         "projectName": "WindowsFormsApp1",
-        "projectPath": "E:\\C++\\Calculator Project C#\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+        "projectPath": "E:\\Mini Projects\\2- Calculator Project C#\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
         "packagesPath": "C:\\Users\\Eqan Ahmad\\.nuget\\packages\\",
-        "outputPath": "E:\\C++\\Calculator Project C#\\WindowsFormsApp1\\WindowsFormsApp1\\obj\\",
+        "outputPath": "E:\\Mini Projects\\2- Calculator Project C#\\WindowsFormsApp1\\WindowsFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eqan Ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
