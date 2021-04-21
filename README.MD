@@ -5,7 +5,7 @@
 |:-------------:|:-------------:|:-------------:|
 |![](/1-%20Button%20Men%20Project/ButtonMen.png)|![](/2-%20Calculator%20Project/Calculator.png)|![](/7-%20Recommendation%20System-CLI/RecommendationSystem.png)|
 
-| Marquee Recommendation System[GUI]         | TicTacToe Handling         |
+| Marquee Recommendation System[GUI]         | TicTacToe         |
 |:-------------:|:-------------:|
 |![](/6-%20Recommendation%20System/ScreenShots/1.png)|![](/4-%20TicTacToe.png)|
  Marquee Recommendation Sytem-CLI   |
