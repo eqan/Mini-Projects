@@ -1,0 +1,12 @@
+E:\C++\Data Base\Data Base\Data Base\bin\Debug\Data Base.exe.config
+E:\C++\Data Base\Data Base\Data Base\bin\Debug\Data Base.exe
+E:\C++\Data Base\Data Base\Data Base\bin\Debug\Data Base.pdb
+E:\C++\Data Base\Data Base\Data Base\obj\Debug\Data_Base.AddData.resources
+E:\C++\Data Base\Data Base\Data Base\obj\Debug\Data_Base.ProfileData.resources
+E:\C++\Data Base\Data Base\Data Base\obj\Debug\Data_Base.Search.resources
+E:\C++\Data Base\Data Base\Data Base\obj\Debug\Data_Base.Properties.Resources.resources
+E:\C++\Data Base\Data Base\Data Base\obj\Debug\Data Base.csproj.GenerateResource.cache
+E:\C++\Data Base\Data Base\Data Base\obj\Debug\Data Base.csproj.CoreCompileInputs.cache
+E:\C++\Data Base\Data Base\Data Base\obj\Debug\Data Base.exe
+E:\C++\Data Base\Data Base\Data Base\obj\Debug\Data Base.pdb
+E:\C++\Data Base\Data Base\Data Base\obj\Debug\Data Base.csprojAssemblyReference.cache

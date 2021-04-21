@@ -1,0 +1,4 @@
+Smith Hewberman
+35
+Male
+C++, C, Rust, C#
