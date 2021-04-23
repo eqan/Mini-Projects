@@ -8,6 +8,7 @@
 | Marquee Recommendation System[GUI]         | TicTacToe         |
 |:-------------:|:-------------:|
 |![](/6-%20Recommendation%20System/ScreenShots/1.png)|![](/4-%20TicTacToe.png)|
- Marquee Recommendation Sytem-CLI   |
+
+| Interview Management System   |
 |:-------------:|
-|![](/8-%Interview%Management%System/ScreenShots/3.png)|
+|![](/8-%20Interview%20Management%20System/ScreenShots/3.png)|
