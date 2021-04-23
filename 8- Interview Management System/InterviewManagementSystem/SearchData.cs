@@ -37,7 +37,7 @@ namespace InterviewManagementSystem
 
         public void Initialize_Information()
         {
-            dbConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB; AttachDbFilename= E:\C++\Interview Management System\Interview Management System\InterviewManagementSystem\Interviewee_DB.mdf; Integrated Security=True; Connect Timeout=30");
+            dbConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB; AttachDbFilename= E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\Interviewee_DB.mdf; Integrated Security=True; Connect Timeout=30");
         }
         private void Display_Record()
         {

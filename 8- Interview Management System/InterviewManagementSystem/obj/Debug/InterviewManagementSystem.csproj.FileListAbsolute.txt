@@ -13,3 +13,18 @@ E:\C++\Interview Management System\Interview Management System\InterviewManageme
 E:\C++\Interview Management System\Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.UpdateData.resources
 E:\C++\Interview Management System\Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.MainForm.resources
 E:\C++\Interview Management System\Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.SearchData.resources
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\bin\Debug\Data Base.exe.config
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\bin\Debug\Data Base.exe
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\bin\Debug\Data Base.pdb
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.csprojAssemblyReference.cache
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.MainForm.resources
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.AddData.resources
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.DeleteData.resources
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.ProfileData.resources
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.SearchData.resources
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\Data_Base.Properties.Resources.resources
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.UpdateData.resources
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.csproj.GenerateResource.cache
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\InterviewManagementSystem.csproj.CoreCompileInputs.cache
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\Data Base.exe
+E:\Mini Projects\8- Interview Management System\InterviewManagementSystem\obj\Debug\Data Base.pdb

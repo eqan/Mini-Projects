@@ -47,8 +47,8 @@ namespace InterviewManagementSystem
             //UpdateData form = new UpdateData(ref statusLabel) { TopLevel = false, TopMost = true };
             //DeleteData form = new DeleteData(ref statusLabel) { TopLevel = false, TopMost = true };
             //AddData form = new AddData(ref statusLabel) { TopLevel = false, TopMost = true };
-            //SearchData form = new SearchData(ref statusLabel) { TopLevel = false, TopMost = true };
-            ProfileData form = new ProfileData() { TopLevel = false, TopMost = true };
+            SearchData form = new SearchData(ref statusLabel) { TopLevel = false, TopMost = true };
+            //ProfileData form = new ProfileData() { TopLevel = false, TopMost = true };
             panel1.Controls.Add(form);
             form.Show();
         }

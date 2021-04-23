@@ -1,0 +1,242 @@
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color:aqua;
+  color: white;
+  border-radius: 25px;
+}
+#form{
+	font-family:"Space Age";
+	color: rgba(112,112,112,1);
+	font-size: 35px;
+	position:absolute;
+	top:40%;
+	left:43%
+}
+#Body{
+	position: absolute;
+	left:26% !important;
+	top:45%;
+	font-family:"Space Age";
+	color: rgba(112,112,112,1);
+	font-size: 25px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Web_1920___7 {
+	position: absolute;
+	background: #E5E5E5;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(34,34,34,1);
+	overflow: hidden;
+}
+.Path_1 { /*Top-tight wave*/
+	overflow: visible;
+	position: absolute;
+	width: 336.994px;
+	height: 357.789px;
+	left: 0px;
+	top: 70.9%;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_2 { /*Top-Left wave*/
+	overflow: visible;
+	position: absolute;
+	width: 336.994px;
+	height: 357.789px;
+	transform: matrix(1,0,0,1,1583,-0.0011) rotate(180deg);
+	transform-origin: center;
+	left: 29.7%;
+	top: 0px;
+}
+#Group_2 {
+	position: absolute;
+	width: 450px;
+	height: 300px;
+	left: 735px;
+	top: 19px;
+	overflow: visible;
+}
+.Canada {
+	position: absolute;
+	overflow: visible;
+	width: 450px;
+	height: 300px;
+	left: 100%;
+	top: 0px;
+}
+#Group_1 {
+	position: absolute;
+	width: 179px;
+	height: 141px;
+	left: 126%;
+	top: 98px;
+	overflow: visible;
+}
+#A {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Insane hours 2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 118px;
+	color: rgba(112,112,112,1);
+}
+#R { 
+	position: absolute;
+	left: 85px;
+	top: 3px;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Insane hours 2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 112px;
+	color: rgba(0,225,230,1);
+	
+}
+#Group_6 { /*Effects button*/
+	position: absolute;
+	width: 222px;
+	height: 80px;
+	left: 46%;
+	top: 80%;
+	overflow: visible;
+	cursor: pointer;
+}
+
+
+#Group_5 { 
+	position: absolute;
+	width: 222px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	cursor:pointer;
+	box-shadow: 0 7px #999;
+	border-radius: 40px;
+	background-color:#171D27;
+
+} 
+#Group_5:hover {
+	background-color:aqua;
+}
+#Group_5:active {
+	background-color:red;
+	transform: translateY(4px);
+}
+
+
+.Untitled_1 { /*Effects the menu  bar*/
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	height: 52px;
+	left: 87px;
+	top: 14px;
+}
+#Group_3 {
+	position: absolute;
+	width: 89px;
+	height: 89px;
+	left: 10px;
+	top: 66px;
+	overflow: visible;
+	cursor: pointer;
+	box-shadow: 0 7px #999;
+	border-radius: 40px;
+	background-color: #171D27;
+}
+#Group_3:hover{
+	background-color:aqua;
+}
+#Group_3:active {
+	background-color:red;
+	transform: translateY(4px);
+}
+#E {
+	position: absolute;
+	left: 20%;
+	top: 13%;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Space Age;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 58px;
+	color: rgba(112,112,112,1);
+}
+
+/*Left Navbar*/
+#mySidenav a {
+  position: absolute;
+  left: -10%;
+  transition: 0.3s;
+  padding: 200px;
+  width: 400px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 250px 250px 0;
+  top:30%;
+}
+
+#mySidenav a:hover {
+  left: 0;
+  background-color: #33b5e5;
+   opacity: 0.2;
+  filter: alpha(opacity=50);
+}
+
+#about {
+  top: 150px;
+  background-color: #222;
+	opacity: 0;
+  filter: alpha(opacity=50);
+}
+/*Right Navbar*/
+#mySidenavRight a {
+	top:35%;
+  position: absolute;
+  right: 0;
+  transition: 0.3s;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 250px 0 0 250px;
+	padding:200px;
+	width:10px;
+}
+
+#mySidenavRight a:hover {
+  right:0;
+  background-color: #33b5e5;
+	opacity: 0.2;
+  filter: alpha(opacity=50);
+ width: 400px;
+	padding-right: 200px;
+}
+
+#aboutRight {
+  top: 150px;
+  background-color: #222;
+	opacity: 0;
+  filter: alpha(opacity=50);
+}
