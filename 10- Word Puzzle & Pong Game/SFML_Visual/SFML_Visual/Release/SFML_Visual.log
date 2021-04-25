@@ -1,42 +1,41 @@
 ﻿  main.cpp
-main.cpp(336): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-main.cpp(346): warning C4018: '<=': signed/unsigned mismatch
-main.cpp(346): warning C4018: '>=': signed/unsigned mismatch
-main.cpp(355): warning C4018: '<': signed/unsigned mismatch
-main.cpp(357): warning C4804: '<=': unsafe use of type 'bool' in operation
-main.cpp(357): warning C4018: '<=': signed/unsigned mismatch
-main.cpp(379): warning C4018: '<': signed/unsigned mismatch
-main.cpp(381): warning C4804: '<=': unsafe use of type 'bool' in operation
-main.cpp(381): warning C4018: '<=': signed/unsigned mismatch
-main.cpp(389): warning C4018: '<': signed/unsigned mismatch
-main.cpp(402): warning C4018: '<': signed/unsigned mismatch
-main.cpp(404): warning C4018: '>=': signed/unsigned mismatch
-main.cpp(424): warning C4018: '<': signed/unsigned mismatch
-main.cpp(426): warning C4018: '>=': signed/unsigned mismatch
-main.cpp(433): warning C4018: '<': signed/unsigned mismatch
-main.cpp(444): warning C4018: '<': signed/unsigned mismatch
-main.cpp(453): warning C4018: '<': signed/unsigned mismatch
-main.cpp(455): warning C4804: '<=': unsafe use of type 'bool' in operation
-main.cpp(455): warning C4018: '<=': signed/unsigned mismatch
-main.cpp(477): warning C4018: '<': signed/unsigned mismatch
-main.cpp(479): warning C4804: '<=': unsafe use of type 'bool' in operation
-main.cpp(479): warning C4018: '<=': signed/unsigned mismatch
-main.cpp(487): warning C4018: '<': signed/unsigned mismatch
-main.cpp(500): warning C4018: '<': signed/unsigned mismatch
-main.cpp(502): warning C4018: '>=': signed/unsigned mismatch
-main.cpp(522): warning C4018: '<': signed/unsigned mismatch
-main.cpp(524): warning C4018: '>=': signed/unsigned mismatch
-main.cpp(531): warning C4018: '<': signed/unsigned mismatch
-main.cpp(279): warning C4060: switch statement contains no 'case' or 'default' labels
-main.cpp(774): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-main.cpp(777): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-main.cpp(781): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-main.cpp(784): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-main.cpp(826): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(336,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(346,30): warning C4018: '<=': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(346,65): warning C4018: '>=': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(355,34): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(357,83): warning C4804: '<=': unsafe use of type 'bool' in operation
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(357,75): warning C4018: '<=': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(379,34): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(381,83): warning C4804: '<=': unsafe use of type 'bool' in operation
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(381,75): warning C4018: '<=': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(389,42): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(402,37): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(404,75): warning C4018: '>=': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(424,37): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(426,75): warning C4018: '>=': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(433,45): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(444,63): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(453,34): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(455,83): warning C4804: '<=': unsafe use of type 'bool' in operation
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(455,75): warning C4018: '<=': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(477,34): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(479,83): warning C4804: '<=': unsafe use of type 'bool' in operation
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(479,75): warning C4018: '<=': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(487,42): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(500,37): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(502,75): warning C4018: '>=': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(522,37): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(524,75): warning C4018: '>=': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(531,45): warning C4018: '<': signed/unsigned mismatch
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(279,5): warning C4060: switch statement contains no 'case' or 'default' labels
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(774,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(777,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(781,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(784,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(784,13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\SFML_Visual\main.cpp(826,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating code
-  1 of 198 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 216 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  SFML_Visual.vcxproj -> C:\Users\ABC\Desktop\Group Project-Eqan-Hamza-Ahmad\SFML_Visual\Release\SFML_Visual.exe
-  SFML_Visual.vcxproj -> C:\Users\ABC\Desktop\Group Project-Eqan-Hamza-Ahmad\SFML_Visual\Release\SFML_Visual.pdb (Full PDB)
+  SFML_Visual.vcxproj -> E:\Mini Projects\10- Word Puzzle & Pong Game\SFML_Visual\Release\SFML_Visual.exe
