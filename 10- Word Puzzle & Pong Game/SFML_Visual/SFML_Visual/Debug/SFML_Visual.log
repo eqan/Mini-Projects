@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\abc\desktop\sfml environment\sfml_visual\sfml_visual\main.cpp(574): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\abc\desktop\sfml environment\sfml_visual\sfml_visual\main.cpp(577): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\abc\desktop\sfml environment\sfml_visual\sfml_visual\main.cpp(581): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\abc\desktop\sfml environment\sfml_visual\sfml_visual\main.cpp(584): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\abc\desktop\sfml environment\sfml_visual\sfml_visual\main.cpp(641): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SFML_Visual.vcxproj -> C:\Users\ABC\Desktop\SFML Environment\SFML_Visual\Debug\SFML_Visual.exe
+  SFML_Visual.vcxproj -> C:\Users\ABC\Desktop\SFML Environment\SFML_Visual\Debug\SFML_Visual.pdb (Partial PDB)
