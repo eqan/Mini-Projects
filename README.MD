@@ -1,5 +1,5 @@
 ## Mini-Projects
-#### To get my feet wet for a bigger projects, small projects are the way to go so here, I am sharing some of them.
+#### To get my feet wet for a bigger project, small projects are the way to go so here, I am sharing some of them.
 
 | Button Men        | Calculator         | Marquee Recommendation Sytem-CLI   |
 |:-------------:|:-------------:|:-------------:|
