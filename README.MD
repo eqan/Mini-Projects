@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Mini-Projects
 #### To get my feet wet for a bigger projects, small projects are the way to go so here, I am sharing some of them.
 
@@ -16,28 +15,8 @@
 
 | HangMan In Shell   |
 |:-------------:|
-|![](/10-%20Hangman%20In%20Shell/ScreenShots/Puzzle.png)|
+|![](/11-%20Hangman%20In%20Shell/Screenshots/Puzzle.jpeg)|
 
 | Pong Game   | Word Search   |
 |:-------------:|:-------------:|
-|![](/1-%2010-%20Word%20Puzzle%20&%20Pong%20Game/1.png)|![](/1-%2010-%20Word%20Puzzle%20&%20Pong%20Game/2.png)|
-=======
-## Mini-Projects
-#### To get my feet wet for a bigger project, small projects are the way to go so here, I am sharing some of them.
-
-| Button Men        | Calculator         | Marquee Recommendation Sytem-CLI   |
-|:-------------:|:-------------:|:-------------:|
-|![](/1-%20Button%20Men%20Project/ButtonMen.png)|![](/2-%20Calculator%20Project/Calculator.png)|![](/7-%20Recommendation%20System-CLI/RecommendationSystem.png)|
-
-| Marquee Recommendation System[GUI]         | TicTacToe         |
-|:-------------:|:-------------:|
-|![](/6-%20Recommendation%20System/ScreenShots/1.png)|![](/4-%20TicTacToe.png)|
-
-| Interview Management System   |
-|:-------------:|
-|![](/8-%20Interview%20Management%20System/ScreenShots/3.png)|
-
-| Pong Game   | Word Search   |
-|:-------------:|:-------------:|
-|![](/10-%20Word%20Puzzle%20&%20Pong%20Game/1.png)|![](/10-%20Word%20Puzzle%20&%20Pong%20Game/2.png)|
->>>>>>> db4031598a053e7a57e1a8dd19826fd425beb3b9
+|![](/10-%2010%20Word%20Puzzle%20&%20Pong%20Game/1.png)|![](/10-%2010%20Word%20Puzzle%20&%20Pong%20Game/2.png)|
