@@ -15,7 +15,7 @@
 
 | HangMan In Shell   |
 |:-------------:|
-|![](/11-%20Hangman%20In%20Shell/Screenshots/Puzzle.jpeg)|
+|![](Puzzle.jpeg)|
 
 | Pong Game   | Word Search   |
 |:-------------:|:-------------:|
