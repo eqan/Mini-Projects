@@ -1,0 +1,10 @@
+C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\bin\Release\Meta Trader 4 GUI.exe.config
+C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\bin\Release\Meta Trader 4 GUI.exe
+C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\bin\Release\Meta Trader 4 GUI.pdb
+C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta_Trader_4_GUI.MetaTraderBotInstaller.resources
+C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta_Trader_4_GUI.Properties.Resources.resources
+C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.csproj.GenerateResource.cache
+C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.csproj.CoreCompileInputs.cache
+C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.exe
+C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.pdb
+C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.csprojAssemblyReference.cache
