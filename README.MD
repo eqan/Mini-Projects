@@ -17,6 +17,3 @@
 |:-------------:|
 |![](Puzzle.jpeg)|
 
-| Pong Game   | Word Search   |
-|:-------------:|:-------------:|
-|![](/10-%2010%20Word%20Puzzle%20&%20Pong%20Game/1.png)|![](/10-%2010%20Word%20Puzzle%20&%20Pong%20Game/2.png)|
