@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.IO;
+using System.Linq;
 
 namespace Meta_Trader_4_GUI
 {
@@ -16,7 +17,14 @@ namespace Meta_Trader_4_GUI
             Add_Directory_Names_For_MetaTraderVersions_To_DropDown_Menu();
         }
 
-        // Find all versions of the metatrader and add them into the drop down
+        /***
+         * @Procedure for Add_Directory_Names_For_MetaTraderVersions_To_DropDown_Menu function
+         * Find all versions of the metatrader
+         * Check for all the possible usable metatrader directories
+         * Check if a name of the metatrader exists
+         * Add the that name and version of the metatrader to the drop down
+         * else add just the metatrader version
+        * **/
         public void Add_Directory_Names_For_MetaTraderVersions_To_DropDown_Menu()
         {
             try
@@ -25,8 +33,17 @@ namespace Meta_Trader_4_GUI
                 diArr = di.GetDirectories();
                 foreach (DirectoryInfo dri in diArr)
                 {
-                	if(dri.Name != "Help" && dr.Name != "C.." && dr.Name != "C..")
-	                    metaTraderVersionList.Items.Add(dri.Name);
+                    if (dri.Name != "Help" && dri.Name != "Common" && dri.Name != "Community")
+                    {
+                        if (File.Exists(dri.FullName + @"\origin.txt"))
+                        {
+                            string line1 = File.ReadLines(dri.FullName + @"\origin.txt").First();
+                            string[] arr = line1.Split('\\');
+                            metaTraderVersionList.Items.Add(arr[arr.Length - 1] + " | Version: " + dri.Name);
+                        }
+                        else
+                            metaTraderVersionList.Items.Add("Unknown Trader | Version: " + dri.Name);
+                    }
                 }
             }
             catch (Exception ex)
@@ -65,6 +82,5 @@ namespace Meta_Trader_4_GUI
                 }
             }
         }
-
     }
 }

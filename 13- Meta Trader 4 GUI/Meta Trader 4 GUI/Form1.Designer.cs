@@ -37,7 +37,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 43);
+            this.label1.Location = new System.Drawing.Point(23, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 0;
@@ -57,17 +57,17 @@
             // 
             this.metaTraderVersionList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.metaTraderVersionList.FormattingEnabled = true;
-            this.metaTraderVersionList.Location = new System.Drawing.Point(96, 40);
+            this.metaTraderVersionList.Location = new System.Drawing.Point(65, 40);
             this.metaTraderVersionList.MaxDropDownItems = 100;
             this.metaTraderVersionList.Name = "metaTraderVersionList";
-            this.metaTraderVersionList.Size = new System.Drawing.Size(298, 21);
+            this.metaTraderVersionList.Size = new System.Drawing.Size(329, 21);
             this.metaTraderVersionList.TabIndex = 3;
             // 
             // MetaTraderBotInstaller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(522, 100);
+            this.ClientSize = new System.Drawing.Size(515, 100);
             this.Controls.Add(this.metaTraderVersionList);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);

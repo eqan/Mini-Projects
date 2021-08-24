@@ -8,3 +8,13 @@ C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta
 C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.exe
 C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.pdb
 C:\Users\Eqan Ahmad\Desktop\Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.csprojAssemblyReference.cache
+E:\Mini Projects\13- Meta Trader 4 GUI\Meta Trader 4 GUI\bin\Release\Meta Trader 4 GUI.exe.config
+E:\Mini Projects\13- Meta Trader 4 GUI\Meta Trader 4 GUI\bin\Release\Meta Trader 4 GUI.exe
+E:\Mini Projects\13- Meta Trader 4 GUI\Meta Trader 4 GUI\bin\Release\Meta Trader 4 GUI.pdb
+E:\Mini Projects\13- Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.csprojAssemblyReference.cache
+E:\Mini Projects\13- Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta_Trader_4_GUI.MetaTraderBotInstaller.resources
+E:\Mini Projects\13- Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta_Trader_4_GUI.Properties.Resources.resources
+E:\Mini Projects\13- Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.csproj.GenerateResource.cache
+E:\Mini Projects\13- Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.csproj.CoreCompileInputs.cache
+E:\Mini Projects\13- Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.exe
+E:\Mini Projects\13- Meta Trader 4 GUI\Meta Trader 4 GUI\obj\Release\Meta Trader 4 GUI.pdb
