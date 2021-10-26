@@ -17,6 +17,6 @@
 |:-------------:|
 |![](Puzzle.jpeg)|
 
-| Weather App   |
-|:-------------:|
-|![](Weather.png)|
+| Weather App   | Material Calculator App   |
+|:-------------:|:-------------:|
+|![](Weather.png)|![](MaterialCalculator.png)|
