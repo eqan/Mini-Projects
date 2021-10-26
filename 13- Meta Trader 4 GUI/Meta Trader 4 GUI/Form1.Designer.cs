@@ -37,42 +37,47 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 43);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.Size = new System.Drawing.Size(63, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Target: ";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(400, 36);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(620, 25);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(72, 27);
+            this.button1.Size = new System.Drawing.Size(72, 38);
             this.button1.TabIndex = 2;
             this.button1.Text = "Install";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Copt_Files_ButtonClick);
+            this.button1.Click += new System.EventHandler(this.Copy_Files_ButtonClick);
             // 
             // metaTraderVersionList
             // 
             this.metaTraderVersionList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.metaTraderVersionList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metaTraderVersionList.FormattingEnabled = true;
-            this.metaTraderVersionList.Location = new System.Drawing.Point(65, 40);
+            this.metaTraderVersionList.Location = new System.Drawing.Point(92, 32);
             this.metaTraderVersionList.MaxDropDownItems = 100;
             this.metaTraderVersionList.Name = "metaTraderVersionList";
-            this.metaTraderVersionList.Size = new System.Drawing.Size(329, 21);
+            this.metaTraderVersionList.Size = new System.Drawing.Size(507, 28);
             this.metaTraderVersionList.TabIndex = 3;
             // 
             // MetaTraderBotInstaller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(515, 100);
+            this.ClientSize = new System.Drawing.Size(704, 77);
             this.Controls.Add(this.metaTraderVersionList);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MetaTraderBotInstaller";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Meta Trader 4 Bot Installer";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -53,11 +53,37 @@ namespace Meta_Trader_4_GUI
             }
         }
 
-        private void Copt_Files_ButtonClick(object sender, EventArgs e)
+        private void Copy_Files_ButtonClick(object sender, EventArgs e)
         {
-            Copy_Files(new string[] { "bot.txt", "bot2.txt" }, "Indicators");
+            Copy_Files("Include", "xyz");
         }
 
+        // @Method 1
+        // Copies a folder along with its files and subdirectories to the destination
+        // @Parameters
+        // folder is a string where the destination folder is stored
+        // directoryToBeCreated is the name of the folder to be copied
+        private void Copy_Files(string folder, string directoryToBeCreated)
+        {
+            try
+            {
+                string targetPath = di.ToString().Remove(3, 1) + Return_Meta_Trader_Name() + @"\MQL4\" + folder + @"\" + directoryToBeCreated;
+                if (!Directory.Exists(targetPath))
+                {
+                    Directory.CreateDirectory(targetPath);
+                    Copy_All_Files_And_Subdirectories(Environment.CurrentDirectory + @"\"+ directoryToBeCreated + @"\", targetPath);
+                    MessageBox.Show("Bot Successfully Installed", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                MessageBox.Show("Path doesn't exist or is invalid!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        // @Method 2
+        // Copies only files to a specific folder
         // @Parameters
         // fileNames is a string array where the files names to be copied are storesd
         // folder is a string where the destination folder is stored
@@ -67,7 +93,7 @@ namespace Meta_Trader_4_GUI
             {
                 try
                 {
-                    string targetPath = di.ToString() + metaTraderVersionList.SelectedItem.ToString() + @"\MQL4\" + folder + @"\";
+                    string targetPath = di.ToString().Remove(3, 1) + Return_Meta_Trader_Name() + @"\MQL4\" + folder + @"\";
                     foreach (string file in fileNames)
                     {
                         FileInfo fileInfo = new FileInfo(Environment.CurrentDirectory + @"\" + file);
@@ -81,6 +107,25 @@ namespace Meta_Trader_4_GUI
                     MessageBox.Show("Path doesn't exist or is invalid!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        // Discards unnecessary information and returns the actual metatrader version name
+        private string Return_Meta_Trader_Name()
+        {
+            string[] fileName = (metaTraderVersionList.SelectedItem.ToString()).Split(':');
+            return (fileName[fileName.Length - 1].Substring(1));
+        }
+
+        // Copies all files from source diretory to target directory
+        void Copy_All_Files_And_Subdirectories(string sourceDir, string targetDir)
+        {
+            Directory.CreateDirectory(targetDir);
+
+            foreach (var file in Directory.GetFiles(sourceDir))
+                File.Copy(file, Path.Combine(targetDir, Path.GetFileName(file)));
+
+            foreach (var directory in Directory.GetDirectories(sourceDir))
+                Copy_All_Files_And_Subdirectories(directory, Path.Combine(targetDir, Path.GetFileName(directory)));
         }
     }
 }

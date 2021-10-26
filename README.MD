@@ -17,3 +17,7 @@
 |:-------------:|
 |![](Puzzle.jpeg)|
 
+| Weather App   |
+|:-------------:|
+|![](Weather.jpeg)|
+
