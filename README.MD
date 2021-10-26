@@ -19,5 +19,4 @@
 
 | Weather App   |
 |:-------------:|
-|![](Weather.jpeg)|
-
+|![](Weather.png)|
