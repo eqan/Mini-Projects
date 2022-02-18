@@ -55,23 +55,25 @@ namespace Meta_Trader_4_GUI
 
         private void Copy_Files_ButtonClick(object sender, EventArgs e)
         {
-            Copy_Files("Include", "xyz");
+            Copy_Files("Eqan Expert", "Experts");
+            Copy_Files(new string[] { "MQLTA MT4 Supertrend Line.ex4", "MQLTA MT4 Supertrend Multi-Timeframe.ex4" }, "Indicators");
         }
 
         // @Method 1
         // Copies a folder along with its files and subdirectories to the destination
         // @Parameters
-        // folder is a string where the destination folder is stored
-        // directoryToBeCreated is the name of the folder to be copied
-        private void Copy_Files(string folder, string directoryToBeCreated)
+        // copyFoler is the name of the folder to be copied
+        // destinatioFolder is the destination where it is to be copied
+        // example      Copy_Files("Eqan Expert", "Experts");
+        private void Copy_Files(string copyFolder, string destinationFolder)
         {
             try
             {
-                string targetPath = di.ToString().Remove(3, 1) + Return_Meta_Trader_Name() + @"\MQL4\" + folder + @"\" + directoryToBeCreated;
+                string targetPath = di.ToString().Remove(3, 1) + Return_Meta_Trader_Name() + @"\MQL4\" + destinationFolder + @"\" + copyFolder;
                 if (!Directory.Exists(targetPath))
                 {
                     Directory.CreateDirectory(targetPath);
-                    Copy_All_Files_And_Subdirectories(Environment.CurrentDirectory + @"\"+ directoryToBeCreated + @"\", targetPath);
+                    Copy_All_Files_And_Subdirectories(Environment.CurrentDirectory + @"\"+ copyFolder + @"\", targetPath);
                     MessageBox.Show("Bot Successfully Installed", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
@@ -85,15 +87,16 @@ namespace Meta_Trader_4_GUI
         // @Method 2
         // Copies only files to a specific folder
         // @Parameters
-        // fileNames is a string array where the files names to be copied are storesd
-        // folder is a string where the destination folder is stored
-        private void Copy_Files(string[] fileNames, string folder)
+        // fileNames is a string array where the files names to be copied are stored
+        // destinationFolder is a string where the destination folder is stored
+        // example  Copy_Files(new string[] { "MQLTA MT4 Supertrend Line.ex4", "MQLTA MT4 Supertrend Multi-Timeframe.ex4" }, "Indicators");
+        private void Copy_Files(string[] fileNames, string destinationFoler)
         {
             if (metaTraderVersionList.SelectedItem.ToString() != "")
             {
                 try
                 {
-                    string targetPath = di.ToString().Remove(3, 1) + Return_Meta_Trader_Name() + @"\MQL4\" + folder + @"\";
+                    string targetPath = di.ToString().Remove(3, 1) + Return_Meta_Trader_Name() + @"\MQL4\" + destinationFoler + @"\";
                     foreach (string file in fileNames)
                     {
                         FileInfo fileInfo = new FileInfo(Environment.CurrentDirectory + @"\" + file);
